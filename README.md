@@ -29,7 +29,7 @@ The **File Organizer** is a Python-based command-line application that helps you
    Make sure you have Python installed on your system. To run the script, use the following command:
 
    ```bash
-   python file_organizer.py
+   python organizer.py
    ```
 
 4. **Input Directory**:

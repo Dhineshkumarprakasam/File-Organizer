@@ -24,17 +24,30 @@ The **File Organizer** is a Python-based command-line application that helps you
    cd File-Organizer
    ```
 
-3. **Run the Script**:
 
-   Make sure you have Python installed on your system. To run the script, use the following command:
+
+3. **Copy and Run the Script**:
+
+   First, copy the `organizer.py` script to the directory you want to organize. Then, make sure you have Python installed on your system. To run the script, use the following command:
 
    ```bash
    python organizer.py
    ```
 
-4. **Input Directory**:
+4. **Automatic Organization**:
 
-   When prompted, enter the path of the directory you want to organize. The script will automatically categorize and move the files into appropriate folders.
+   The script will automatically categorize and move the files into appropriate folders within the directory where the script is located.
+
+
+5. **Install `pyfiglet`**:
+
+   The script uses the `pyfiglet` library to generate text in ASCII art. To install `pyfiglet`, run the following command:
+
+   ```bash
+   pip install pyfiglet
+   ```
+
+   Make sure you have `pip` installed and properly configured on your system.
 
 
 ## Contributing
